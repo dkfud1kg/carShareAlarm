@@ -3,7 +3,10 @@ package check;
 public class CancelalarmSent extends AbstractEvent {
 
     private Long id;
-
+    private Long orderId;
+    private String reciever;
+    private String message;
+    
     public CancelalarmSent(){
         super();
     }
